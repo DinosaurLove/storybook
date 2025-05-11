@@ -1,0 +1,53 @@
+{
+  "name": "my_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "build": "next build",
+    "storybook": "storybook dev -p 3000",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.16",
+    "clsx": "^2.1.1",
+    "lodash": "^4.17.21",
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.87.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/nextjs": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "eslint-plugin-storybook": "^0.12.0",
+    "postcss": "^8.5.3",
+    "storybook": "^8.6.12",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended",
+      "next/core-web-vitals"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": "off"
+    }
+  }
+}
